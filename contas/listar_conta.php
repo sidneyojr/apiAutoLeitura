@@ -18,7 +18,7 @@ for ($i=0; $i < count($res); $i++){
 	
 	echo ($res) ?
 	json_encode(array("code" => 1, "result" => $dados)):
-	json_encode(array("code" => 0, message => "Data Not Found"))
+	json_encode(array("code" => 0, "message" => "Data Not Found"))
 
 
 ?>

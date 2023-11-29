@@ -4,11 +4,8 @@ include_once("../date.php");
 require "../functions/functions.php";
 $dir = "../logs/logs.log";
 $codigo=1;
-#$valormetrocubico=0;
-#$leituraatual=0;
-#$leituraanterior=0;
-#$valorconta=0;
 
+##Calcula conta
 //Leitura Atual
 $query = $pdo->query("SELECT leitura FROM tb_leituras WHERE codigo = '$codigo' AND mes = '$mesAtual'");
 $resul = $query->fetchAll(PDO::FETCH_ASSOC);
