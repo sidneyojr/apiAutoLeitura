@@ -1,5 +1,5 @@
 <?php
-include_once("../conn.php");
+include_once("../conexao/conn.php");
 include_once("../date.php");
 
 $dados = array();
@@ -15,7 +15,7 @@ for ($i=0; $i < count($res); $i++){
 	
 	echo ($res) ?
 	json_encode(array("code" => 1, "result" => $dados)):
-	json_encode(array("code" => 0, message => "Data Not Found"))
+	json_encode(array("code" => 0, "message" => "Data Not Found"))
 
 
 ?>

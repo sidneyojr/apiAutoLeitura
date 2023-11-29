@@ -9,7 +9,7 @@ $dir = "../logs/logs.log";
 $data = json_decode(file_get_contents("php://input"), true);
 
 if (!$data || !isset($data["codigo"]) || !isset($data["leitura"])) {
-    // Se não conseguir decodificar o JSON, ou se o ID do usuário ou a leitura não estiverem presentes, retorna uma mensagem de erro
+   
     $mensagem_log = "LOG: " . json_encode(array("code" => 0, "message" => "Erro nos dados recebidos")) . " " . date("Y-m-d H:i:s") . PHP_EOL;
 
     file_put_contents($dir, $mensagem_log, FILE_APPEND);
