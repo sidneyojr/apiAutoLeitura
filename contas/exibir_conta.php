@@ -1,7 +1,7 @@
 <?php
 include_once("../conexao/conn.php");
 include_once("../date.php");
-
+include_once("../configs/config.php");
 $dir = "../logs/logs.log";
 #$id=1;
 
