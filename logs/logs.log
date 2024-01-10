@@ -1,0 +1,58 @@
+LOG: Conexão mal sucedida - SQLSTATE[HY000] [2002] No such file or directory 2024-01-09 21:02:32
+LOG: Conexão mal sucedida - SQLSTATE[HY000] [2002] No such file or directory 2024-01-09 21:03:14
+LOG: Conexão mal sucedida - SQLSTATE[HY000] [2002] No such file or directory 2024-01-09 21:03:48
+LOG: Conectado ao Banco de Dados 2024-01-09 23:54:50
+LOG: Conectado ao Banco de Dados 2024-01-09 23:55:10
+LOG: Conectado ao Banco de Dados 2024-01-10 00:07:22
+LOG: Data Found {"code":1,"result":[{"id":1,"local":"A","nome":"Sidney de Oliveira Junior","celular":"15998490719","email":"jrsidney@hotmail.com.br"},{"id":2,"local":"A","nome":"Joao Carlos Miranda de Santana","celular":"11973978068","email":"jcmsantana@outlook.com"}]} 2024-01-10 00:11:36
+LOG: Data Found {"code":1,"result":[{"id":1,"local":"A","nome":"Sidney de Oliveira Junior","celular":"15998490719","email":"jrsidney@hotmail.com.br"},{"id":2,"local":"A","nome":"Joao Carlos Miranda de Santana","celular":"11973978068","email":"jcmsantana@outlook.com"}]} 2024-01-10 00:27:22
+LOG: Data Found {"code":1,"result":[{"id":1,"local":"A","nome":"Sidney de Oliveira Junior","celular":"15998490719","email":"jrsidney@hotmail.com.br"},{"id":2,"local":"A","nome":"Joao Carlos Miranda de Santana","celular":"11973978068","email":"jcmsantana@outlook.com"}]} 2024-01-10 00:27:53
+LOG: Data Found {"code":1,"result":[{"id":1,"local":"A","nome":"Sidney de Oliveira Junior","celular":"15998490719","email":"jrsidney@hotmail.com.br"},{"id":2,"local":"A","nome":"Joao Carlos Miranda de Santana","celular":"11973978068","email":"jcmsantana@outlook.com"}]} 2024-01-10 00:28:48
+LOG: Data Found {"code":1,"result":[{"id":1,"local":"A","nome":"Sidney de Oliveira Junior","celular":"15998490719","email":"jrsidney@hotmail.com.br"},{"id":2,"local":"A","nome":"Joao Carlos Miranda de Santana","celular":"11973978068","email":"jcmsantana@outlook.com"}]} 2024-01-10 00:30:28
+LOG: Conectado ao Banco de Dados 2024-01-10 00:31:29
+LOG: Data Found {"code":1,"result":[{"id":1,"local":"A","nome":"Sidney de Oliveira Junior","celular":"15998490719","email":"jrsidney@hotmail.com.br"},{"id":2,"local":"A","nome":"Joao Carlos Miranda de Santana","celular":"11973978068","email":"jcmsantana@outlook.com"}]} 2024-01-10 00:33:31
+LOG: Data Found {"code":1,"result":[{"id":1,"local":"A","nome":"Sidney de Oliveira Junior","celular":"15998490719","email":"jrsidney@hotmail.com.br"},{"id":2,"local":"A","nome":"Joao Carlos Miranda de Santana","celular":"11973978068","email":"jcmsantana@outlook.com"}]} 2024-01-10 00:37:55
+LOG: Data Found {"code":1,"result":[{"id":1,"local":"A","nome":"Sidney de Oliveira Junior","celular":"15998490719","email":"jrsidney@hotmail.com.br"},{"id":2,"local":"A","nome":"Joao Carlos Miranda de Santana","celular":"11973978068","email":"jcmsantana@outlook.com"}]} 2024-01-10 00:38:19
+LOG: Data Found {"code":1,"result":[{"id":1,"local":"A","nome":"Sidney de Oliveira Junior","celular":"15998490719","email":"jrsidney@hotmail.com.br"},{"id":2,"local":"A","nome":"Joao Carlos Miranda de Santana","celular":"11973978068","email":"jcmsantana@outlook.com"}]} 2024-01-10 00:39:25
+LOG: Data Found {"code":1,"result":[{"id":1,"local":"A","nome":"Sidney de Oliveira Junior","celular":"15998490719","email":"jrsidney@hotmail.com.br"},{"id":2,"local":"A","nome":"Joao Carlos Miranda de Santana","celular":"11973978068","email":"jcmsantana@outlook.com"}]} 2024-01-10 00:40:52
+LOG: Data Found {"code":1,"result":[{"id":1,"local":"A","nome":"Sidney de Oliveira Junior","celular":"15998490719","email":"jrsidney@hotmail.com.br"},{"id":2,"local":"A","nome":"Joao Carlos Miranda de Santana","celular":"11973978068","email":"jcmsantana@outlook.com"}]} 2024-01-10 00:41:34
+LOG: Data Found {"code":1,"result":[{"id":1,"local":"A","nome":"Sidney de Oliveira Junior","celular":"15998490719","email":"jrsidney@hotmail.com.br"},{"id":2,"local":"A","nome":"Joao Carlos Miranda de Santana","celular":"11973978068","email":"jcmsantana@outlook.com"}]} 2024-01-10 00:45:06
+LOG: Data Found {"code":1,"result":[{"id":1,"local":"A","nome":"Sidney de Oliveira Junior","celular":"15998490719","email":"jrsidney@hotmail.com.br"},{"id":2,"local":"A","nome":"Joao Carlos Miranda de Santana","celular":"11973978068","email":"jcmsantana@outlook.com"}]} 2024-01-10 00:46:28
+LOG: Conectado ao Banco de Dados 2024-01-10 00:52:25
+LOG: Conectado ao Banco de Dados 2024-01-10 00:52:47
+LOG: Data Found {"code":1,"result":[{"id":1,"local":"A","nome":"Sidney de Oliveira Junior","celular":"15998490719","email":"jrsidney@hotmail.com.br"},{"id":2,"local":"A","nome":"Joao Carlos Miranda de Santana","celular":"11973978068","email":"jcmsantana@outlook.com"}]} 2024-01-10 00:52:47
+LOG: Conectado ao Banco de Dados 2024-01-10 00:52:58
+LOG: Data Found {"code":1,"result":[{"id":1,"local":"A","nome":"Sidney de Oliveira Junior","celular":"15998490719","email":"jrsidney@hotmail.com.br"},{"id":2,"local":"A","nome":"Joao Carlos Miranda de Santana","celular":"11973978068","email":"jcmsantana@outlook.com"}]} 2024-01-10 00:52:58
+LOG: Conectado ao Banco de Dados 2024-01-10 00:53:18
+LOG: Data Found {"code":1,"result":[{"id":1,"local":"A","nome":"Sidney de Oliveira Junior","celular":"15998490719","email":"jrsidney@hotmail.com.br"},{"id":2,"local":"A","nome":"Joao Carlos Miranda de Santana","celular":"11973978068","email":"jcmsantana@outlook.com"}]} 2024-01-10 00:53:18
+LOG: Conectado ao Banco de Dados 2024-01-10 00:54:26
+LOG: Data Found {"code":1,"result":[{"id":1,"local":"A","nome":"Sidney de Oliveira Junior","celular":"15998490719","email":"jrsidney@hotmail.com.br"},{"id":2,"local":"A","nome":"Joao Carlos Miranda de Santana","celular":"11973978068","email":"jcmsantana@outlook.com"}]} 2024-01-10 00:54:26
+LOG: Conectado ao Banco de Dados 2024-01-10 00:56:49
+LOG: Data Found {"code":1,"result":[{"id":1,"local":"A","nome":"Sidney de Oliveira Junior","celular":"15998490719","email":"jrsidney@hotmail.com.br"},{"id":2,"local":"A","nome":"Joao Carlos Miranda de Santana","celular":"11973978068","email":"jcmsantana@outlook.com"}]} 2024-01-10 00:56:49
+LOG: Conectado ao Banco de Dados 2024-01-10 01:01:21
+LOG: Data Found {"code":1,"result":[{"id":1,"local":"A","nome":"Sidney de Oliveira Junior","celular":"15998490719","email":"jrsidney@hotmail.com.br"},{"id":2,"local":"A","nome":"Joao Carlos Miranda de Santana","celular":"11973978068","email":"jcmsantana@outlook.com"}]} 2024-01-10 01:01:21
+LOG: Conectado ao Banco de Dados 2024-01-10 01:06:15
+LOG: Data Found {"code":1,"result":[{"id":1,"local":"A","nome":"Sidney de Oliveira Junior","celular":"15998490719","email":"jrsidney@hotmail.com.br"},{"id":2,"local":"A","nome":"Joao Carlos Miranda de Santana","celular":"11973978068","email":"jcmsantana@outlook.com"}]} 2024-01-10 01:06:15
+LOG: Conectado ao Banco de Dados 2024-01-10 01:06:40
+LOG: Conectado ao Banco de Dados 2024-01-10 01:07:23
+LOG: Conectado ao Banco de Dados 2024-01-10 01:07:45
+LOG: Data Found {"code":1,"result":[{"id":1,"local":"A","nome":"Sidney de Oliveira Junior","celular":"15998490719","email":"jrsidney@hotmail.com.br"},{"id":2,"local":"A","nome":"Joao Carlos Miranda de Santana","celular":"11973978068","email":"jcmsantana@outlook.com"}]} 2024-01-10 01:07:45
+LOG: Conectado ao Banco de Dados 2024-01-10 01:07:47
+LOG: Data Found {"code":1,"result":[{"id":1,"local":"A","nome":"Sidney de Oliveira Junior","celular":"15998490719","email":"jrsidney@hotmail.com.br"},{"id":2,"local":"A","nome":"Joao Carlos Miranda de Santana","celular":"11973978068","email":"jcmsantana@outlook.com"}]} 2024-01-10 01:07:47
+LOG: Conectado ao Banco de Dados 2024-01-10 01:08:39
+LOG: Conectado ao Banco de Dados 2024-01-10 01:09:35
+LOG: Data Found {"code":1,"result":[{"id":1,"local":"A","nome":"Sidney de Oliveira Junior","celular":"15998490719","email":"jrsidney@hotmail.com.br"},{"id":2,"local":"A","nome":"Joao Carlos Miranda de Santana","celular":"11973978068","email":"jcmsantana@outlook.com"}]} 2024-01-10 01:09:35
+LOG: Conectado ao Banco de Dados 2024-01-10 01:13:29
+LOG: Data Found {"code":1,"result":[{"id":1,"local":"A","nome":"Sidney de Oliveira Junior","celular":"15998490719","email":"jrsidney@hotmail.com.br"},{"id":2,"local":"A","nome":"Joao Carlos Miranda de Santana","celular":"11973978068","email":"jcmsantana@outlook.com"}]} 2024-01-10 01:13:29
+LOG: Conectado ao Banco de Dados 2024-01-10 01:15:28
+LOG: Conectado ao Banco de Dados 2024-01-10 01:20:12
+LOG: Conectado ao Banco de Dados 2024-01-10 01:20:15
+LOG: Conectado ao Banco de Dados 2024-01-10 01:20:26
+LOG: Conectado ao Banco de Dados 2024-01-10 01:23:02
+LOG: Data Found {"code":1,"result":[{"id":1,"local":"A","nome":"Sidney de Oliveira Junior","celular":"15998490719","email":"jrsidney@hotmail.com.br"},{"id":2,"local":"A","nome":"Joao Carlos Miranda de Santana","celular":"11973978068","email":"jcmsantana@outlook.com"}]} 2024-01-10 01:23:02
+LOG: Conectado ao Banco de Dados 2024-01-10 01:23:17
+LOG: Conectado ao Banco de Dados 2024-01-10 01:23:57
+LOG: Conectado ao Banco de Dados 2024-01-10 01:24:08
+LOG: Data Found {"code":1,"result":[{"id":1,"local":"A","nome":"Sidney de Oliveira Junior","celular":"15998490719","email":"jrsidney@hotmail.com.br"},{"id":2,"local":"A","nome":"Joao Carlos Miranda de Santana","celular":"11973978068","email":"jcmsantana@outlook.com"}]} 2024-01-10 01:24:08
+LOG: Conectado ao Banco de Dados 2024-01-10 01:24:59
+LOG: Data Found {"code":1,"result":[{"id":1,"local":"A","nome":"Sidney de Oliveira Junior","celular":"15998490719","email":"jrsidney@hotmail.com.br"},{"id":2,"local":"A","nome":"Joao Carlos Miranda de Santana","celular":"11973978068","email":"jcmsantana@outlook.com"}]} 2024-01-10 01:24:59

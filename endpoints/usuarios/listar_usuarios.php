@@ -1,11 +1,20 @@
 <?php
-include_once("../conexao/conn.php");
+ini_set('display_errors', 1);
+error_reporting(E_ALL);
 
-$dir = "../logs/logs.log";
+include_once("../../conexao/conn.php");
+$logDir = __DIR__ . '/../../logs';
 $dados = array();
 
-$query = $pdo->query("SELECT * FROM tb_usuarios");
-$res = $query->fetchAll(PDO::FETCH_ASSOC);
+#$query = $pdo->query("SELECT * FROM tb_usuarios");
+#$res = $query->fetchAll(PDO::FETCH_ASSOC);
+
+$sql = "SELECT * FROM tb_usuarios";
+$stmt = $pdo->prepare($sql);
+$stmt->execute();
+
+$res = $stmt->fetchAll(PDO::FETCH_ASSOC);
+
 
 for ($i = 0; $i < count($res); $i++) {
     foreach ($res[$i] as $key => $value) {
@@ -24,5 +33,5 @@ echo $response;
     "LOG: Data Found " . $response . " " . date("Y-m-d H:i:s") . PHP_EOL :
     "LOG: Data Not Found " . $response . " " . date("Y-m-d H:i:s") . PHP_EOL;
 
-	file_put_contents($dir, $mensagem_log, FILE_APPEND);
+	file_put_contents($logDir.'/logs.log', $mensagem_log, FILE_APPEND);
 ?>
