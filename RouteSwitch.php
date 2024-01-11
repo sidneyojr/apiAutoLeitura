@@ -1,13 +1,18 @@
 <?php
-
+include_once(__DIR__ . '/conexao/conn.php');
 abstract class RouteSwitch
 {
-    protected function usuarios()
+    protected function home()
+    {
+        require __DIR__ . '/endpoints/home/home.html';
+    }
+    
+    protected function usuario()
     {
         require __DIR__ . '/endpoints/usuarios/listar_usuarios.php';
     }
     
-    protected function leituras()
+    /*protected function leituras()
     {
         require __DIR__ . '/endpoints/leituras/listar_leituras.php';
     }
@@ -19,14 +24,13 @@ abstract class RouteSwitch
 
     protected function defaultRoute()
     {
-        http_response_code(404);
-        require __DIR__ . '/404.html';
-    }
+       http_response_code(404);
+       require __DIR__ . '/404.html';
+        
+           
+    }*/
 
-   protected function home()
-    {
-        echo "Home page<br>";
-        // Adicione aqui o código ou o arquivo a ser exibido para a página inicial
-    }
+
+   
 }
 ?>

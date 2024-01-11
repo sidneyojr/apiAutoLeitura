@@ -2,12 +2,15 @@
 ini_set('display_errors', 1);
 error_reporting(E_ALL);
 
-include_once("../../conexao/conn.php");
+include_once(__DIR__ . '/../../conexao/conn.php');
 $logDir = __DIR__ . '/../../logs';
 $dados = array();
 
 #$query = $pdo->query("SELECT * FROM tb_usuarios");
 #$res = $query->fetchAll(PDO::FETCH_ASSOC);
+if (!isset($pdo)) {
+    die("Erro: A variável \$pdo não foi definida.");
+}
 
 $sql = "SELECT * FROM tb_usuarios";
 $stmt = $pdo->prepare($sql);

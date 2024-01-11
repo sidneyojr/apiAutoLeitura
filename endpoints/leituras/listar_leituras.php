@@ -1,6 +1,8 @@
 <?php
-include_once("../conexao/conn.php");
-include_once("../date.php");
+#include_once("../conexao/conn.php");
+include_once(__DIR__ . '/../../conexao/conn.php');
+include_once(__DIR__ . '/../../date.php');
+$logDir = __DIR__ . '/../../logs';
 
 $dados = array();
 
@@ -13,9 +15,17 @@ for ($i=0; $i < count($res); $i++){
 		$dados= $res;
 	}
 	
-	echo ($res) ?
+	$response = ($res) ?
 	json_encode(array("code" => 1, "result" => $dados)):
-	json_encode(array("code" => 0, "message" => "Data Not Found"))
+	json_encode(array("code" => 0, "message" => "Data Not Found"));
+
+#echo $response;
+
+	$mensagem_log = ($res) ?
+	"LOG: Leituras do mes - Leitura Exibida  " . $response . " " . date("Y-m-d H:i:s") . PHP_EOL :
+	"LOG: Leituras do mes - Nada a Exibir " . $response . " " . date("Y-m-d H:i:s") . PHP_EOL;
+
+	file_put_contents($logDir.'/logs.log', $mensagem_log, FILE_APPEND);
 
 
 ?>
