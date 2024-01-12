@@ -1,9 +1,7 @@
 <?php
 include_once("env.php");
-
 date_default_timezone_set('America/Sao_Paulo');
 
-#$dir= "../logs/logs.log";
 $logDir = __DIR__ . '/../logs';
 try{
 	
@@ -14,6 +12,7 @@ try{
 } 
 
 	file_put_contents($logDir.'/logs.log', $mensagem_log, FILE_APPEND);
+
 ?>
 
 

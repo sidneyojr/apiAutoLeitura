@@ -1,3 +1,8 @@
 # ENV
 /conexao/env.php
+/conexao/env_prod.php
+
+# .
+/.auth/.htpasswd
+/.gitignore
 
