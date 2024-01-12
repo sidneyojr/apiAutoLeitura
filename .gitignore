@@ -1,7 +1,6 @@
 # ENV
 /conexao/env.php
-
-/conexao/env_prod.php
+/conexao/envprod.php
 
 # .
 /.auth/.htpasswd
