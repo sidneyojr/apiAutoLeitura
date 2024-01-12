@@ -38,7 +38,7 @@ abstract class RouteSwitch
     }
     protected function home()
     {
-        require __DIR__ . '/endpoints/home/home.html';
+        require __DIR__ . '/endpoints/home/home.php';
 
     }
    
