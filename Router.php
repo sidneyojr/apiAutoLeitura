@@ -2,7 +2,7 @@
 #ini_set('display_errors', 1);
 #error_reporting(E_ALL);
 #date_default_timezone_set('America/Sao_Paulo');
-include_once(__DIR__ . '/conexao/conn.php');
+#include_once(__DIR__ . '/conexao/conn.php');
 require_once __DIR__ . '/RouteSwitch.php';
 
 class Router extends RouteSwitch
