@@ -1,8 +1,11 @@
 # ENV
 /conexao/env.php
+
 /conexao/env_prod.php
 
 # .
 /.auth/.htpasswd
 /logs/logs.log
 
+# database
+/sql
