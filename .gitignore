@@ -4,5 +4,5 @@
 
 # .
 /.auth/.htpasswd
-/.gitignore
+/logs/logs.log
 
