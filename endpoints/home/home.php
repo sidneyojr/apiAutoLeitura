@@ -9,18 +9,18 @@ exit;
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
-  <link rel="icon" href="/home/sidney/Imagens/agua-da-torneira-isolada-no-fundo-branco/icon.png">
+  <link rel="icon" href="/img/icon_v1.png">
     <title>AutoLeitura</title>
     <meta charset="utf-8">
   </head>
   <body>
-    <h3>AutoLeitura Nova Versão para Homologação</h3>
+    <h3>API AUTOLEITURA DOCUMENTAÇÃO</h3>
     <br>
     <br>
-    <p>Logo você poderá baixar seu .apk aqui</p>
+    <p></p>
     <br>
     <br>
-    <p>Veja a versão web<a href="https://auto-leitura-git-develop-sidneyo-ifspedubr.vercel.app/">AutoLeitura</a>.</p>
+    <p>LINK VAZIO<a href="">Link Vazio</a>.</p>
     
   </body>
 </html>

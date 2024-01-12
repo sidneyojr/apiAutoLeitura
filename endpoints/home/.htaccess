@@ -16,6 +16,6 @@ Require valid-user
 
 
 ## ÍNICIO PÁGINAS DE ERROS
-ErrorDocument 401 /401.html
+ErrorDocument 401 /apiAutoLeitura/401.html
 ErrorDocument 403 /403.html
 ## FIM PÁGINAS DE ERROS
