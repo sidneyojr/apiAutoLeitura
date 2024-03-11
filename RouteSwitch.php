@@ -17,6 +17,10 @@ abstract class RouteSwitch
         require __DIR__ . '/endpoints/leituras/listar_leituras.php';
     }
     
+    protected function postLeituras()
+    {
+        require __DIR__ . '/endpoints/leituras/leituras.php';
+    }
 
     protected function admin()
     {
@@ -24,10 +28,7 @@ abstract class RouteSwitch
     }
     
     /*
-    protected function postLeituras()
-    {
-        require __DIR__ . '/endpoints/leituras/leituras.php';
-    }*/
+    */
 
     protected function defaultRoute()
     {

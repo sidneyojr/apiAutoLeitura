@@ -24,6 +24,11 @@ class Router extends RouteSwitch
            
         }
 
+        if ($route === '' || $route === 'index.php' || $route === 'endpoints') {
+            $this->postLeituras();
+           
+        }
+
         if ($route === '' || $route === 'index.php' || $route === '/') {
             $this->admin();
            
