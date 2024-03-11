@@ -1,0 +1,10 @@
+# ENV
+/conexao/env.php
+/conexao/envprod.php
+
+# .
+/.auth/.htpasswd
+/logs/logs.log
+
+# database
+/sql
